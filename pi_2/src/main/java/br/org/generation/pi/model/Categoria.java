@@ -16,15 +16,15 @@ public class Categoria {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 
-	@NotNull(message = "O atributo nome é obrigatorio!")
+	@NotNull(message = "O atributo nome é obrigatório!")
 	@Size(max = 255)
 	private String nome;
 
-	@NotNull(message = "O atributo palavra_chave é obrigatorio!")
+	@NotNull(message = "O atributo palavra chave é obrigatório!")
 	@Size(max = 255)
 	private String palavraChave;
 
-	@NotNull(message = "O atributo descricao é obrigatorio")
+	@NotNull(message = "O atributo descrição é obrigatório")
 	@Size(max = 1000)
 	private String descricao;
 
