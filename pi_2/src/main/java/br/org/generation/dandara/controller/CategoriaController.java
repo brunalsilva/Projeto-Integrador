@@ -63,7 +63,7 @@ public class CategoriaController {
 				.map(res-> ResponseEntity.status(HttpStatus.OK).body(categoriaRepository.save(categoria)))
 				.orElse(ResponseEntity.status(HttpStatus.BAD_REQUEST).build());
 	}
-	@DeleteMapping(path = {"/{Id}"})
+	@DeleteMapping(path = {"/{id}"})
 	public ResponseEntity<?> delete(@PathVariable long id){
 		return categoriaRepository.findById(id)
 				.map(record-> {
