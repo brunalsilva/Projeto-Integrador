@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.org.generation</groupId>
-	<artifactId>pi</artifactId>
+	<artifactId>dandara</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>pi</name>
-	<description>Projeto Integrador</description>
+	<name>dandara</name>
+	<description>Projeto Integrador - Dandara</description>
 	<properties>
 		<java.version>16</java.version>
 	</properties>

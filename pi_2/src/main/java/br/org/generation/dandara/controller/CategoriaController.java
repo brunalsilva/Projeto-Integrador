@@ -1,4 +1,4 @@
-package br.org.generation.pi.controller;
+package br.org.generation.dandara.controller;
 
 import java.util.List;
 
@@ -17,7 +17,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.org.generation.pi.model.Categoria;
+import br.org.generation.dandara.model.Categoria;
+import br.org.generation.dandara.repository.CategoriaRepository;
 
 @RestController
 @RequestMapping("/categoria")
@@ -25,7 +26,6 @@ import br.org.generation.pi.model.Categoria;
 public class CategoriaController {
 	@Autowired
 	private CategoriaRepository categoriaRepository;
-	
 	
 	@GetMapping
 	public ResponseEntity<List<Categoria>> getAll(){
@@ -47,6 +47,12 @@ public class CategoriaController {
 	public ResponseEntity<List<Categoria>> getByPalavraChave(@PathVariable String palavraChave){
 		return ResponseEntity.ok(categoriaRepository.findAllByPalavraChaveContainingIgnoreCase(palavraChave));
 	}
+	
+	@GetMapping("/descricao/{descricao}")
+	public ResponseEntity<List<Categoria>> getByDescricao(@PathVariable String descricao){
+		return ResponseEntity.ok(categoriaRepository.findAllByDescricaoContainingIgnoreCase(descricao));
+	}
+	
 	@PostMapping
 	public ResponseEntity<Categoria> postCategoria(@Valid @RequestBody Categoria categoria){
 		return ResponseEntity.status(HttpStatus.CREATED).body(categoriaRepository.save(categoria));
@@ -54,7 +60,7 @@ public class CategoriaController {
 	@PutMapping
 	public ResponseEntity <Categoria> putCategoria(@Valid @RequestBody Categoria categoria){
 		return categoriaRepository.findById(categoria.getId())
-				.map(res-> ResponseEntity.status(HttpStatus.OK).body(cateriaRepository.save(categoria)))
+				.map(res-> ResponseEntity.status(HttpStatus.OK).body(categoriaRepository.save(categoria)))
 				.orElse(ResponseEntity.status(HttpStatus.BAD_REQUEST).build());
 	}
 	@DeleteMapping(path = {"/{Id}"})

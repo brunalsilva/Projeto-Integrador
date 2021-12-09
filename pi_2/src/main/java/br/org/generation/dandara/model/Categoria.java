@@ -1,4 +1,4 @@
-package br.org.generation.pi.model;
+package br.org.generation.dandara.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
