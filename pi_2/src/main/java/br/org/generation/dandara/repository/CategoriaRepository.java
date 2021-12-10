@@ -8,9 +8,9 @@ import org.springframework.stereotype.Repository;
 import br.org.generation.dandara.model.Categoria;
 
 @Repository
-public interface CategoriaRepository extends JpaRepository<Categoria,Long>{
+public interface CategoriaRepository extends JpaRepository<Categoria, Long>{
+	public List<Categoria> findAllByNomeContainingIgnoreCase(String nome);
+	public List<Categoria> findAllByPalavraChaveContainingIgnoreCase(String palavraChave);
+	public List<Categoria> findAllByDescricaoContainingIgnoreCase(String descricao);
 
-		public List<Categoria> findAllByNomeContainingIgnoreCase(String nome);
-		public List<Categoria> findAllByPalavraChaveContainingIgnoreCase(String palavraChave);
-		public List<Categoria> findAllByDescricaoContainingIgnoreCase(String descricao);
 }
