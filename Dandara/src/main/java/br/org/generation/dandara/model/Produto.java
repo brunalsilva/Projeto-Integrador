@@ -30,7 +30,7 @@ public class Produto {
 	private Long quantidade;
 	
 	@NotNull
-	private Boolean tipo;
+	private Boolean servico;
 	
 	@NotNull
 	private String foto;
@@ -80,12 +80,12 @@ public class Produto {
 		this.quantidade = quantidade;
 	}
 
-	public Boolean getTipo() {
-		return tipo;
+	public Boolean getServico() {
+		return servico;
 	}
 
-	public void setTipo(Boolean tipo) {
-		this.tipo = tipo;
+	public void setServico(Boolean servico) {
+		this.servico = servico;
 	}
 
 	public String getFoto() {
