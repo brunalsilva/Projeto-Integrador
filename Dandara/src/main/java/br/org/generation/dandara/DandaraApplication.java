@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PiApplication {
+public class DandaraApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PiApplication.class, args);
+		SpringApplication.run(DandaraApplication.class, args);
 	}
 
 }
