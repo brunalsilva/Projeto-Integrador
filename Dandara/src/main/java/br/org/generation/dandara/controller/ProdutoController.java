@@ -19,7 +19,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import br.org.generation.dandara.model.Produto;
+import br.org.generation.dandara.repository.CategoriaRepository;
 import br.org.generation.dandara.repository.ProdutoRepository;
+import br.org.generation.dandara.repository.UsuarioRepository;
 
 @RestController
 @CrossOrigin(origins = "*", allowedHeaders = "*")
@@ -27,6 +29,12 @@ import br.org.generation.dandara.repository.ProdutoRepository;
 public class ProdutoController {
 	@Autowired
 	private ProdutoRepository produtoRepository;
+	
+	@Autowired
+	private UsuarioRepository usuarioRepository;
+	
+	@Autowired
+	private CategoriaRepository categoriaRepository;
 
 	@GetMapping
 	public ResponseEntity<List<Produto>> getAll(){
@@ -52,7 +60,10 @@ public class ProdutoController {
 	
 	@PostMapping
 	public ResponseEntity<Produto> postProduto(@Valid @RequestBody Produto produto){
-		return ResponseEntity.status(HttpStatus.CREATED).body(produtoRepository.save(produto));
+		if(categoriaRepository.existsById(produto.getCategoria().getId()) && usuarioRepository.existsById(produto.getUsuario().getId()))
+			return ResponseEntity.status(HttpStatus.CREATED).body(produtoRepository.save(produto));
+		
+		return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
 	}
 	
 	@PutMapping

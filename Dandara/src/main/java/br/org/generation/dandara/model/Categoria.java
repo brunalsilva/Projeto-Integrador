@@ -12,8 +12,6 @@ import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
-
-
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
@@ -32,7 +30,7 @@ public class Categoria {
 	@Size(max = 255)
 	private String palavraChave;
 
-	@NotNull(message = "O atributo descrição é obrigatório")
+	@NotNull(message = "O atributo descrição é obrigatório!")
 	@Size(max = 1000)
 	private String descricao;
 	
@@ -81,4 +79,5 @@ public class Categoria {
 		this.palavraChave = palavraChave;
 	}
 
+	
 }
