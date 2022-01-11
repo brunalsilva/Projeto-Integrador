@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
+
+h1 {
+    font-family: 'Orelega One', cursive;
+    font-size: 200px;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.larissa {
+    display: flex;
+}
+
+.gradient1 {
+    color: rgb(180, 57, 0);
+}
+
+.gradient2 {
+    color: rgb(214, 125, 47);
+}
+
+.gradient3 {
+    background-image: linear-gradient(to bottom, #bf2301ff, rgb(236, 178, 4), rgb(203, 228, 61));
+    color: rgb(0, 0, 0);
+    padding: 30px 40px;
+}
+
+.gradient4 {
+    background-image: linear-gradient(to bottom, #bf2301ff, rgb(236, 178, 4), rgb(203, 228, 61));
+    color: rgb(255, 255, 255);
+    padding: 30px 40px;
+}
+
+.fonte1 {
+    font-size: 40px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.fonte2 {
+    font-size: 40px;
+    font-family: 'Cinzel', serif;
+}
+
+.fonte3 {
+    font-size: 40px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.fonte4 {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.fonte5 {
+    font-family: 'Hind', sans-serif;
+    font-size: 20px;
+}
