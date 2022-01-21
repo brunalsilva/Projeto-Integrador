@@ -64,28 +64,28 @@
     <td align="center">
     <img  src="https://avatars.githubusercontent.com/u/90981638?v=4" style="width: 100px; border-radius: 5%">
     <h4><b>Bruna Silva</b></h4>
-      <a href="https://www.linkedin.com/in/bruna-silva-671402224/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
-      <a href="https://github.com/brunalsilva" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a> 
+      <a href="https://www.linkedin.com/in/bruna-silva-671402224/" target="_blank"><img src="https://cdn-icons.flaticon.com/png/30/4494/premium/4494497.png?token=exp=1642798371~hmac=15178441ac87525c93f04e93d8840d15" target="_blank"></a> 
+      <a href="https://github.com/brunalsilva" target="_blank"><img src="https://cdn-icons-png.flaticon.com/24/889/889111.png" target="_blank"></a> 
     <td align="center">
     <img  src="https://avatars.githubusercontent.com/u/93776128?v=4" style="width: 100px; border-radius: 5%">
     <h4><b>Eduardo Sousa</b></h4>
-      <a href="https://www.linkedin.com/in/eduardo-sousa-519518185" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
-      <a href="https://github.com/Edu-sousa"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a> 
+      <a href="https://www.linkedin.com/in/eduardo-sousa-519518185" target="_blank"><img src="https://cdn-icons.flaticon.com/png/24/1377/premium/1377213.png?token=exp=1642797829~hmac=1045bea0637da9cc6633a048472fcba0" target="_blank"></a> 
+      <a href="https://github.com/Edu-sousa"><img src="https://cdn-icons-png.flaticon.com/24/889/889111.png" target="_blank"></a> 
     <td align="center">
       <img  src="https://avatars.githubusercontent.com/u/71715700?v=4" style="width: 100px; border-radius: 5%">
-    <h4><b>Maysa Andrade</b></h4>
-     <a href="www.linkedin.com/in/kayque-gonçalves" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
-      <a href="https://github.com/kayqueG" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a> 
+    <h4><b>Kayque Gonçalves</b></h4>
+     <a href="www.linkedin.com/in/kayque-gonçalves" target="_blank"><img src="https://cdn-icons.flaticon.com/png/24/1377/premium/1377213.png?token=exp=1642797829~hmac=1045bea0637da9cc6633a048472fcba0" target="_blank"></a> 
+      <a href="https://github.com/kayqueG" target="_blank"><img src="https://cdn-icons-png.flaticon.com/24/889/889111.png" target="_blank"></a> 
     <td align="center">
     <img  src="https://avatars.githubusercontent.com/u/93736645?v=4" style="width: 100px; border-radius: 5%">
        <h4><b>Larissa Silva</b></h4>
-      <a href="https://www.linkedin.com/in/devlarissa/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
-      <a href="https://github.com/devlarissa" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a> 
+      <a href="https://www.linkedin.com/in/devlarissa/" target="_blank"><img src="https://cdn-icons.flaticon.com/png/23/1377/premium/1377213.png?token=exp=1642797829~hmac=1045bea0637da9cc6633a048472fcba0" target="_blank"></a> 
+      <a href="https://github.com/devlarissa" target="_blank"><img src="https://cdn-icons-png.flaticon.com/24/889/889111.png" target="_blank"/></a> 
    <td align="center">
     <img  src="https://avatars.githubusercontent.com/u/90520505?v=4" style="width: 100px; border-radius: 5%">
     <h4><b>Marcela Almeida</b></h4>
-      <a href="https://www.linkedin.com/in/marcela-almeida-094291175/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
-      <a href="https://github.com/almeidamarcelah" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a> 
+      <a href="https://www.linkedin.com/in/marcela-almeida-094291175/" target="_blank"><img src="https://cdn-icons.flaticon.com/png/24/1377/premium/1377213.png?token=exp=1642797829~hmac=1045bea0637da9cc6633a048472fcba0" target="_blank"></a> 
+      <a href="https://github.com/almeidamarcelah" target="_blank"><img src="https://cdn-icons-png.flaticon.com/24/889/889111.png" target="_blank"></a> 
     <td align="center">
   </tr>
 </table>
