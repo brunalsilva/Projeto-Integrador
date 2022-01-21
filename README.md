@@ -3,7 +3,7 @@
 <h1 align="center"> Dandara Projeto-Integrador </h1>
 
  <p align="center">
-<img src="https://media.discordapp.net/attachments/888485261569323071/910520712140324874/logo_y-eco.08.JPG?width=601&height=406" style="width: 65%;">
+<img src="https://raw.githubusercontent.com/brunalsilva/React-Projeto-Integrador/c1324aa64366b7c705856a157b9141c9025754e3/src/Componentes%20gr%C3%A1ficos/logo-extenso.svg" style="width: 65%;">
 </p>
 
 <h2>👨‍💻Tecnologias  utilizadas :<h2>
