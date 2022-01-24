@@ -20,9 +20,6 @@
      <img  src="https://img.icons8.com/color/40/mysql-logo.png">
    <td align="center">
    <img  src="https://img.icons8.com/ios-glyphs/40/github.png">
-     
-
-  <tr>
    <td align="center">
    <img  src="https://img.icons8.com/color/40/typescript.png">
    <td align="center">
@@ -33,7 +30,6 @@
    <img  src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/40/external-postman-is-the-only-complete-api-development-environment-logo-color-tal-revivo.png">
     <td align="center">
      <img  src="https://img.icons8.com/color/40/figma--v1.png">
-   <tr>
    <td align="center">
    <img  src="https://img.icons8.com/color/40/javascript--v1.png">
    <td align="center">
