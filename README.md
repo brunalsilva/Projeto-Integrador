@@ -52,9 +52,22 @@
 <br>
 
 <br>
+ 
   
-
-
+ 
+ <table align="center">
+  <tr>
+   <td align="center">
+   <img src="https://media3.giphy.com/media/9OHLiCBelKCqE4k5zO/giphy.gif?cid=ecf05e478vjk4klkbox6vjyh5dv4h2o6ffv74i61fsjnzovi&rid=giphy.gif&ct=g" style="width: 30%;">
+<!--    </td>
+  <td align="center"> -->
+   <p >
+  <a href="https://github.com/brunalsilva/React-Projeto-Integrador" target="_blank"><img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/28/external-link-social-media-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png" target="_blank"> * Back-End do Projeto Dandara.</a>
+ <br>
+ <a href="https://dandarabr.herokuapp.com" target="_blank"><img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/28/external-link-social-media-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png" target="_blank"> * Documentação no Swegger do Projeto.</a></p>
+   </td>
+  </tr>
+ </table>
 <br>
 <br>
 
