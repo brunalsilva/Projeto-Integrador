@@ -6,6 +6,9 @@
 <img src="https://raw.githubusercontent.com/brunalsilva/React-Projeto-Integrador/c1324aa64366b7c705856a157b9141c9025754e3/src/Componentes%20gr%C3%A1ficos/logo-extenso.svg" style="width: 65%;">
 </p>
 
+<img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/28/external-link-social-media-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png">
+<p>
+
 <h2><img src="https://img.icons8.com/stickers/40/settings-3.png"> Tecnologias  utilizadas :<h2>
 <br>
 <table align="center" style=" width: 60%" >
